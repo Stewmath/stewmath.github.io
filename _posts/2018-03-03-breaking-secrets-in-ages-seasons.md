@@ -55,8 +55,9 @@ bool isValidSecret(secret) {
 }
 ```
 
-It seems pretty obvious that they explicitly wanted these secrets to work all the time.
-Maybe they forgot to disable this before shipping.
+If the encoded GameID is zero, the secret is valid on all files. It seems pretty obvious
+that they explicitly wanted these secrets to work all the time.  Maybe they forgot to
+disable this before shipping.
 
 It's normally impossible for the GameID to be zero in a secret; zero means
 "uninitialized", so if the GameID is zero, the game will assign a random number to it
