@@ -6,6 +6,11 @@ layout: null
   <channel>
     <title>{{ site.name }}</title>
     <description>{{ site.description }}</description>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <author>
+      <name>{{ site.author.name }}</name>
+      <email>{{ site.author.email }}</email>
+    </author>
     <link>{{ site.url }}</link>
     {% for post in site.posts %}
 		{% unless post.draft %}

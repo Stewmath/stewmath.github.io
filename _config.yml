@@ -11,6 +11,10 @@ description: Notes on disassembling and hacking old video games
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/avatar.png
 
+author:
+    name: Matthew Stewart
+    email: stewartmatthew6@gmail.com
+
 #
 # Flags below are optional
 #
