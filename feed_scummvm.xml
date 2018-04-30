@@ -11,7 +11,8 @@ layout: null
     <name>{{ site.author.name }}</name>
     <email>{{ site.author.email }}</email>
   </author>
-  <link href="{{ site.url }}" rel="self"/>
+  <link href="{{ site.url }}/feed_scummvm.xml" type='application/atom+xml' rel="self"/>
+  <link href="{{ site.url }}" rel='alternate' type='text/html'/>
   {% for post in site.tags.scummvm %}
   {% unless post.draft %}
   <entry>
