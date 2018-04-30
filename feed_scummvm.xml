@@ -11,7 +11,7 @@ layout: null
     <name>{{ site.author.name }}</name>
     <email>{{ site.author.email }}</email>
   </author>
-  <link href="{{ site.url }}"/>
+  <link href="{{ site.url }}" rel="self"/>
   {% for post in site.tags.scummvm %}
   {% unless post.draft %}
   <entry>
@@ -23,7 +23,7 @@ layout: null
     {% endif %}
     <content type='html'>{{ post.content | xml_escape }}</content>
     <published>{{ post.date | date_to_xmlschema }}</published>
-    <link href="{{ post.url | prepend: site.url }}"/>
+    <link href="{{ post.url | prepend: site.url }}" rel="alternate"/>
     <id>{{ post.url | prepend: site.url }}</id>
   </entry>
   {% endunless %}
