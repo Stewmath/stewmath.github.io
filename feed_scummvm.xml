@@ -16,13 +16,13 @@ layout: null
   {% for post in site.tags.scummvm %}
   {% unless post.draft %}
   <entry>
-    <title type="html">{{ post.title | xml_escape }}</title>
+    <title type="text">{{ post.title | xml_escape }}</title>
     {% if post.updated %}
     <updated>{{ post.updated | date_to_xmlschema }}</updated>
     {% else %}
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     {% endif %}
-    <content type="html">{{ post.content | xml_escape }}</content>
+    <content type="text">{{ post.content | xml_escape }}</content>
     <published>{{ post.date | date_to_xmlschema }}</published>
     <link href="{{ post.url | prepend: site.url }}" rel="alternate"/>
     <id>{{ post.url | prepend: site.url }}</id>
