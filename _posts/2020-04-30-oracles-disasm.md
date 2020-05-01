@@ -103,6 +103,15 @@ Rather than trying to hide the complexity of the code with a fancy editor,
 I want to expose the code as painlessly as possible. This means documenting it
 and making it easy to modify.
 
+A tool called [ZOLE](https://github.com/Drenn1/ZOLE-4.5/releases), written by
+[Lin](http://github.com/lin20), already exists for Oracles rom hacking. It uses
+the more traditional approach of editing the ROM directly. I've used it a fair
+bit and even made updates for it. It's a decent starting point for ROM hacks,
+but it becomes clear very quickly that a very large number of events are
+hardcoded and difficult to modify, and new ones are not particularly easy to
+create. The disassembly is meant to be a basis for ROM hacking which can deal
+with these issues as flexibly as possible.
+
 Aside from proof-of-concept things like my [variable-width font
 hack](http://www.romhacking.net/hacks/2934/), no complete hacks have been made
 with the disassembly yet. But it's had an indirect effect; the [Oracles
