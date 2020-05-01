@@ -112,6 +112,9 @@ hardcoded and difficult to modify, and new ones are not particularly easy to
 create. The disassembly is meant to be a basis for ROM hacking which can deal
 with these issues as flexibly as possible.
 
+{% include image.html url="/images/oracles-disasm-zole.png"
+description="Screenshot of ZOLE." %}
+
 Aside from proof-of-concept things like my [variable-width font
 hack](http://www.romhacking.net/hacks/2934/), no complete hacks have been made
 with the disassembly yet. But it's had an indirect effect; the [Oracles
@@ -127,7 +130,8 @@ Lately I've been focusing on the disassembly's companion software,
 [LynnaLab](https://github.com/drenn1/lynnalab). It's all good and well to be
 able to hack the code, but you can't make a good ROM hack without being able to
 create new dungeons too. This is what LynnaLab is for; it's a GUI program which
-allows you to design levels by editing the disassembly's files.
+allows you to design levels by editing the disassembly's files. This should
+allow us to replace ZOLE entirely.
 
 {% include image.html url="/images/oracles-disasm-lynnalab.png"
 description="You can create or edit rooms using LynnaLab..." %}
