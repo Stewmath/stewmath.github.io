@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Drenn's Blog
+name: Stewmat's Blog
 
 # Short bio or description (displayed in the header)
 description: Notes on disassembling and hacking old video games
@@ -25,7 +25,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: drenn1
+  github: stewmath
   instagram:
   linkedin:
   pinterest:
