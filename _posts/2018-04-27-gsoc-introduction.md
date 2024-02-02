@@ -8,7 +8,7 @@ This summer, I've been accepted into Google Summer of Code to work on the [Scumm
 
 Why did I apply to ScummVM? Well, to me, it sounded a lot more interesting than
 traditional coding projects; I get a kick out of picking apart a game's code (as I've been
-doing with [Oracle of Ages](https://github.com/drenn1/ages-disasm) for the last 3 years),
+doing with [Oracle of Ages](https://github.com/stewmath/oracles-disasm) for the last 3 years),
 so this should be an enjoyable summer for me.
 
 I'm not quite starting from scratch - an engine with some basic file handling and image
@@ -28,6 +28,6 @@ implement after the fact.
 
 I'll be posting weekly updates here as I proceed, at least once the "coding phase" starts
 (May 14th). My work can be found in [this
-repository](https://github.com/Drenn1/scummvm/tree/startrek).
+repository](https://github.com/Stewmath/scummvm/tree/startrek).
 
 Big thanks to Google and to the ScummVM team for selecting me.

@@ -17,13 +17,13 @@ I have mixed feelings about this. This already happened to the first
 4 generations of Pokemon games; they had their source code leaked some time ago.
 I mused in an earlier post that I hope such a thing never happens to the Zelda
 Oracle games, because of my work on my
-[oracles-disasm](https://github.com/drenn1/oracles-disasm) project.  I don't
+[oracles-disasm](https://github.com/stewmath/oracles-disasm) project.  I don't
 want there to be a chance of the project being contaminated with information
 stolen from Nintendo's (or Capcom's in this case) actual source code.
 
 I have similar feelings about Link's Awakening, since I've made some
 contributions to the [LADX
-disassembly](https://github.com/drenn1/oracles-disasm), though I'm not a main
+disassembly](https://github.com/stewmath/oracles-disasm), though I'm not a main
 contributor. As such I won't be looking at the leaked source code, and I really
 hope the LADX disassembly can continue in a relatively "clean" way.
 

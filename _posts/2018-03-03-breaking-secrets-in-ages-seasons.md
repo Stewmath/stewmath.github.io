@@ -9,7 +9,7 @@ games, though my only record still standing today is my [100%
 record](https://www.speedrun.com/oracle#100). I wonder why...
 
 These days, though, rather than speedrunning, I've been hacking and reverse-engineering
-the oracles with my [disassembly](https://github.com/drenn1/ages-disasm). And an
+the oracles with my [disassembly](https://github.com/stewmath/oracles-disasm). And an
 interesting question came to me while reversing the secret-parsing code: How can I break
 this?
 

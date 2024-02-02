@@ -5,7 +5,7 @@ tags: oracles
 ---
 
 On this day, 5 years ago, I made my first commit in the
-[oracles-disasm](https://github.com/Drenn1/oracles-disasm) project; a full
+[oracles-disasm](https://github.com/stewmath/oracles-disasm) project; a full
 disassembly for "The Legend of Zelda: Oracle of Ages and Seasons" for the
 Gameboy. I've never talked about it much publicly outside of a few tweets, so
 I thought this would be a good time to tell the world about it.
@@ -103,7 +103,7 @@ Rather than trying to hide the complexity of the code with a fancy editor,
 I want to expose the code as painlessly as possible. This means documenting it
 and making it easy to modify.
 
-A tool called [ZOLE](https://github.com/Drenn1/ZOLE-4.5/releases), written by
+A tool called [ZOLE](https://github.com/stewmath/ZOLE-4.5/releases), written by
 [Lin](http://github.com/lin20), already exists for Oracles rom hacking. It uses
 the more traditional approach of editing the ROM directly. I've used it a fair
 bit and even made updates for it. It's a decent starting point for ROM hacks,
@@ -127,7 +127,7 @@ I really want to make ROM hacking easy...
 ## Level creation
 
 Lately I've been focusing on the disassembly's companion software,
-[LynnaLab](https://github.com/drenn1/lynnalab). It's all good and well to be
+[LynnaLab](https://github.com/stewmath/lynnalab). It's all good and well to be
 able to hack the code, but you can't make a good ROM hack without being able to
 create new dungeons too. This is what LynnaLab is for; it's a GUI program which
 allows you to design levels by editing the disassembly's files. This should
